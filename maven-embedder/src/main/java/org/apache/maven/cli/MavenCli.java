@@ -309,7 +309,7 @@ public class MavenCli
         }
         else
         {
-            cliRequest.request.setLoggingLevel( MavenExecutionRequest.LOGGING_LEVEL_INFO );
+            cliRequest.request.setLoggingLevel( MavenExecutionRequest.LOGGING_LEVEL_WARN );
             System.setProperty( "org.slf4j.simpleLogger.defaultLogLevel", "info" );
         }
 
